@@ -21,7 +21,7 @@ spec:
         app: gitops-demo
     spec:
       containers:
-      - image: <ACCOUNT ID>.dkr.ecr.<REGION>.amazonaws.com/gitops-demo-app:<IMAGE VERSION>
+      - image: 786301389620.dkr.ecr.us-east-1.amazonaws.com/gitops-demo-app:7ca65c61
         imagePullPolicy: Always
         name: gitops-demo
         ports:
