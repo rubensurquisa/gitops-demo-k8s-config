@@ -8,4 +8,5 @@ namespace: gitops-demo
 
 images:
 - name: gitops-demo-app
-  newTag: "654321"
+  newName: 786301389620.dkr.ecr.us-east-1.amazonaws.com/gitops-demo-app
+  newTag: "555555"

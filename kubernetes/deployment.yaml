@@ -21,9 +21,8 @@ spec:
         app: gitops-demo
     spec:
       containers:
-      - image: gitops-demo-app
-        imagePullPolicy: Always
-        name: gitops-demo
+      - name: gitops-demo
+        image: gitops-demo-app
         ports:
         - containerPort: 8082
           protocol: TCP
