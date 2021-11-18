@@ -8,4 +8,4 @@ namespace: gitops-demo
 
 images:
 - name: gitops-demo-app
-  newTag: b989a541
+  newTag: 329c4614
